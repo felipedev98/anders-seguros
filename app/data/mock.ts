@@ -37,6 +37,9 @@ export const clientes: Cliente[] = [
   { id: 'cli-23', rut: '20789012-K', nombres: 'Tomás Agustín', apellidos: 'Saavedra Hidalgo', telefono: '56997901447', email: 'tomas.saavedra@example.com', created_at: '2026-04-08T12:00:00Z', updated_at: '2026-04-08T12:00:00Z' },
   { id: 'cli-24', rut: '14567890-0', nombres: 'Paula Carolina', apellidos: 'Vargas Ojeda', telefono: '56931818585', email: null, created_at: '2026-04-17T12:00:00Z', updated_at: '2026-04-17T12:00:00Z' },
   { id: 'cli-25', rut: '9876543-3', nombres: 'Héctor Hernán', apellidos: 'Gallardo Aguilar', telefono: '56935735722', email: 'hector.gallardo@example.com', created_at: '2026-04-26T12:00:00Z', updated_at: '2026-04-26T12:00:00Z' },
+  { id: 'cli-26', rut: '12345679-0', nombres: 'Víctor Manuel', apellidos: 'Anders Aguilar', telefono: '56939652859', email: 'victorandersaguilar@gmail.com', created_at: '2026-05-05T12:00:00Z', updated_at: '2026-05-05T12:00:00Z' },
+  { id: 'cli-27', rut: '98765432-1', nombres: 'Juan Manuel', apellidos: 'Pérez Soto', telefono: '56943569996', email: 'juanmanuelperezsoto@gmail.com', created_at: '2026-05-14T12:00:00Z', updated_at: '2026-05-14T12:00:00Z' },
+  { id: 'cli-28', rut: '12345678-9', nombres: 'María Fernanda', apellidos: 'González Rojas', telefono: '56947487133', email: 'mariafernandagonzales@gmail.com', created_at: '2026-05-23T12:00:00Z', updated_at: '2026-05-23T12:00:00Z' },
 ]
 
 export const polizas: Poliza[] = [
@@ -79,6 +82,8 @@ export const polizas: Poliza[] = [
   { id: 'pol-037', cliente_id: 'cli-24', compania_id: 'comp-5', numero_poliza: 'LB-2031069', tipo: 'Hogar', fecha_inicio: '2026-05-29', fecha_vencimiento: '2027-05-29', estado: 'vigente', created_at: '2026-05-29T12:00:00Z', updated_at: '2026-05-29T12:00:00Z' },
   { id: 'pol-038', cliente_id: 'cli-24', compania_id: 'comp-1', numero_poliza: 'RE-2031206', tipo: 'Salud', fecha_inicio: '2025-11-14', fecha_vencimiento: '2026-11-14', estado: 'por_vencer', created_at: '2025-11-14T12:00:00Z', updated_at: '2025-11-14T12:00:00Z' },
   { id: 'pol-039', cliente_id: 'cli-25', compania_id: 'comp-5', numero_poliza: 'LB-2031343', tipo: 'Automotriz', fecha_inicio: '2025-11-11', fecha_vencimiento: '2026-11-11', estado: 'por_vencer', created_at: '2025-11-11T12:00:00Z', updated_at: '2025-11-11T12:00:00Z' },
+  { id: 'pol-040', cliente_id: 'cli-26', compania_id: 'comp-1', numero_poliza: 'RE-2031480', tipo: 'Hogar', fecha_inicio: '2026-03-15', fecha_vencimiento: '2027-03-15', estado: 'vigente', created_at: '2026-03-15T12:00:00Z', updated_at: '2026-03-15T12:00:00Z' },
+  { id: 'pol-041', cliente_id: 'cli-27', compania_id: 'comp-2', numero_poliza: 'CH-2031617', tipo: 'Vida', fecha_inicio: '2026-04-20', fecha_vencimiento: '2027-04-20', estado: 'vigente', created_at: '2026-04-20T12:00:00Z', updated_at: '2026-04-20T12:00:00Z' },
 ]
 
 export const cuotas: Cuota[] = [
